@@ -1,14 +1,3 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- dotnet
-- unity
-description: "How to train an AI to play Pinball"
-urlFragment: "update-this-to-unique-url-stub"
----
-
 An example of creating an AI in .Net using ([Unity ML-Agents][unityMlAgents]) and a 3D Pinball game, to serve as a learning environment for training intelligent agents to play pinball without supervision.
 
 The Pinball agent is rewarded by the score going up, and all actions and frames that lead to a higher score are remembered. Initially the actions will be random (using a curiosity model) but over time the agent will choose actions that lead to the highest reward (score).
