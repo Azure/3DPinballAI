@@ -46,3 +46,10 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+Assets/ML-Agents/**
+!Assets/ML-Agents/PlaceHolder.txt
+
+Assets/Plugins/
+Mono**/
+
