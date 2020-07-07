@@ -27,18 +27,15 @@ public class ExternalWindowManager : MonoBehaviour
 
     public static long Score => score;
     public static int Ball => ball;
-    public static bool IsActive => isActive;
 
     private static long score;
     private static int ball;
-    private static bool isActive;
 
     public string FilePath = @"C:\Program Files (x86)\Microsoft Games\Pinball\pinball.exe";
     public string WorkingDirectory = @"C:\Program Files (x86)\Microsoft Games\Pinball";
     public string WindowTitle = "3D Pinball for Windows - Space Cadet";
     public RenderTexture renderTexture;
 
-    private int frame = 0;
     private Process proc;
     private User32.Rect rect;
 
