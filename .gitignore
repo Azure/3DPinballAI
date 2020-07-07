@@ -53,3 +53,5 @@ Assets/ML-Agents/**
 Assets/Plugins/
 Mono**/
 
+*.dll
+*.exe
