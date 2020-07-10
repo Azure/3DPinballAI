@@ -3,16 +3,16 @@ An example of creating an AI in .Net using ([Unity ML-Agents][unityMlAgents]) an
 The Pinball agent is rewarded by the score going up, and all actions and frames that lead to a higher score are remembered. Initially the actions will be random (using a curiosity model) but over time the agent will choose actions that lead to the highest reward (score).
 
 ## Prerequisites
-- Download and install ['3D Pinball'][3DPinball]{:target="_blank"}
-- Download, install and configure [Unity][unity]{:target="_blank"} 
-- Setup a ([Python 3.6 Virtual Environment](docs/using-virtual-environments.md))
+- Download and install <a href="https://www.groovypost.com/howto/windows-7-3d-pinball-space-cadet-game/" target="_blank" title="3D Pinball">3D Pinball</a>
+- Download, install and configure [Unity][unity]
+- Setup a [Python 3.6 Virtual Environment](docs/using-virtual-environments.md)
 
 ## Training the PinballAgents
-- Setup a ([training session](docs/training-ML-agents.md))
+- Setup a [training session](docs/training-ML-agents.md)
 
 ## The Code
-- The brain ([Pinball Agent](Assets/Scripts/PinballAgent.cs)) implemented in .Net
-- The eyes ([External Window Manager](Assets/Scripts/ExternalWindowManager.cs)) used to screen capture external window, and send keys to it. You could say one eye watches the window frames and the other looks at the score.
+- The brain [Pinball Agent](Assets/Scripts/PinballAgent.cs) implemented in .Net
+- The eyes [External Window Manager](Assets/Scripts/ExternalWindowManager.cs) used to screen capture external window, and send keys to it. You could say one eye watches the window frames and the other looks at the score.
 - The AI config ([trainer_config.yaml](Assets/Config/trainer_config.yaml)) the unity ML agents training config.
 
 ## Features
@@ -56,5 +56,4 @@ Initial concept and code developed by [Elliot Wood][elliotGithub]
 <!-- Links -->
 [elliotGithub]: https://github.com/ElliotWood "Elliot's GitHub"
 [unityMlAgents]: https://github.com/Unity-Technologies/ml-agents "Unity ML Agents GitHub repo"
-[3DPinball]: https://www.groovypost.com/howto/windows-7-3d-pinball-space-cadet-game/ "3D Pinball"
 [unity]: ./docs/unity-setup.md "Unity Setup Instructions"
