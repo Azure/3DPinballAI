@@ -3,8 +3,8 @@ An example of creating an AI in .Net using ([Unity ML-Agents][unityMlAgents]) an
 The Pinball agent is rewarded by the score going up, and all actions and frames that lead to a higher score are remembered. Initially the actions will be random (using a curiosity model) but over time the agent will choose actions that lead to the highest reward (score).
 
 ## Prerequisites
-- Download and install ( ['3D Pinball'][3DPinball]{:target="_blank"} )
-- Download, install and configure ( [Unity][unity]{:target="_blank"} )
+- Download and install ['3D Pinball'][3DPinball]{:target="_blank"}
+- Download, install and configure [Unity][unity]{:target="_blank"} 
 - Setup a ([Python 3.6 Virtual Environment](docs/using-virtual-environments.md))
 
 ## Training the PinballAgents
